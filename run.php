@@ -9,7 +9,6 @@ include 'func.php';
 $init = new Bom();
 
 //Eksekusi Sms Boomber
-echo kontol
 echo "Nomor? (contoh : 628xxxx)\nInput : ";
 $a = trim(fgets(STDIN));
 $init->no = "$a";
